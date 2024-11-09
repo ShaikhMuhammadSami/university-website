@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-img.png" alt="website-logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+
+        <h1 class="our-courses">Our Courses</h1>
+    </section>
+
+
+
+    <!-- Course start-->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, facere, nesciunt ullam hic nihil repellat quae ea, magni quisquam assumenda aspernatur consequuntur iste adipisci tempora natus harum dignissimos eaque necessitatibus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, facere, nesciunt ullam hic nihil repellat quae ea, magni quisquam assumenda aspernatur consequuntur iste adipisci tempora natus harum dignissimos eaque necessitatibus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, facere, nesciunt ullam hic nihil repellat quae ea, magni quisquam assumenda aspernatur consequuntur iste adipisci tempora natus harum dignissimos eaque necessitatibus.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Course End -->
+
+    <!-- Facilities start -->
+
+    <section class="facilities">
+        <h2>Our Facilities</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/facilities-img-1.jpeg" alt="food-pic">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt consectetur amet, praesentium atque officia, veniam fugiat nesciunt reiciendis vel cupiditate porro, voluptates repudiandae deleniti pariatur eaque totam consequuntur modi!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/facilirties-img-2.jpg" alt="play-ground-pic">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt consectetur amet, praesentium atque officia, veniam fugiat nesciunt reiciendis vel cupiditate porro, voluptates repudiandae deleniti pariatur eaque totam consequuntur modi!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/library-pic-4.png" alt="library-pic" >
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt consectetur amet, praesentium atque officia, veniam fugiat nesciunt reiciendis vel cupiditate porro, voluptates repudiandae deleniti pariatur eaque totam consequuntur modi!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities end -->
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing  Maxime sunt explicabo officia temporibus aliquid<br> unde maiores nesciunt corrupti veritatis sed.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/shaikhmuhammad.sami?mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-sami-661a352b6/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <p>Made with <i class='bx bx-heart' ></i> by Muhammad Sami</p>
+    </section>
+
+    <script>
+
+        const navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
